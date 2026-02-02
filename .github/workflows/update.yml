@@ -3,17 +3,6 @@ on:
   push:
   workflow_dispatch:
 
-  on:
-  workflow_dispatch:
-  push:
-
-jobs:
-  test-run:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Actions runner is alive"
-
-
 jobs:
   update:
     runs-on: ubuntu-latest
